@@ -1,0 +1,9 @@
+const OTPAlgorithm = {
+  SHA1: "SHA1",
+  SHA256: "SHA256",
+  SHA512: "SHA512",
+  GOST3411_2012_256: "GOST3411_2012_256",
+  GOST3411_2012_512: "GOST3411_2012_512",
+};
+
+module.exports = OTPAlgorithm;
